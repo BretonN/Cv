@@ -1,6 +1,6 @@
 .presentation{
     min-width: 80%;
-    min-height:25%;
+    min-height:10%;
     background-color:rgb(219, 219, 219);
     border-radius: 15px;
     border:0 ;
@@ -19,4 +19,8 @@
 .compétence{
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.texte{
+    text-align: center;
 }
