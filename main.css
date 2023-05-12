@@ -8,3 +8,15 @@
     padding-right: 20px;
     text-align: center;
 }
+
+.Navbar{
+    min-width: 80%;
+    min-height:25%;
+    background-color:rgb(219, 219, 219);
+    text-align: center;
+}
+
+.compétence{
+    padding-left: 5%;
+    padding-right: 5%;
+}
