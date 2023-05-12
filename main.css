@@ -74,8 +74,8 @@ nav a {
 }
 
 nav a:hover {
-    color: deepskyblue;
-    border-bottom: 2px solid deepskyblue;
+    color: rgb(0, 60, 255);
+    border-bottom: 2px solid rgb(0, 60, 255);
 }
 
 .sous {
@@ -119,12 +119,21 @@ nav>ul li:hover .sous {
 
 .conteneur {
     margin: 50px 20px;
-    height: 1500px;
+    height: 100%;
 }
 /* Fin de menu déroulant icon */
 
 /* couleur icone actif */
 .Actif {
-    color: deepskyblue;
+    color: rgb(0, 60, 255);
 }
 
+.tableau {
+    display: flex;
+    width: 90%;
+}
+
+.aquis {
+    width: 50%;
+    text-align: center;
+}
