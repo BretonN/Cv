@@ -1,6 +1,18 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    padding: 0%;
+    margin: 0%;
+    background-image : url(https://media.istockphoto.com/id/1216520813/fr/photo/cyberespace-num%C3%A9rique-avec-particules-et-connexions-r%C3%A9seau-de-donn%C3%A9es-num%C3%A9riques-future.jpg?b=1&s=170667a&w=0&k=20&c=AvcB7ifJG4XDgQjJRPw8WoS4VKGNfcdUVdiZGtmK2II=);
+}
+
 .presentation{
-    min-width: 80%;
+    max-width: 80%;
     min-height:10%;
+    margin-left: 7%;
     background:linear-gradient(rgb(30, 71, 235),rgb(119, 119, 161));
     border-radius: 15px;
     border:0 ;
@@ -8,13 +20,6 @@
     padding-right: 20px;
     text-align: center;
     border-radius: 20px;
-}
-
-.Navbar{
-    min-width: 80%;
-    min-height:25%;
-    background-color:rgb(219, 219, 219);
-    text-align: center;
 }
 
 .compétence{
@@ -43,9 +48,11 @@
 /*partie menu déroulant icon */
 
 nav {
-    width: 100%;
+    margin-left: 7%;
+    max-width: 90%;
+    border-radius: 20px;
     margin: 0 auto;
-    background-color: white;
+    background:linear-gradient(rgb(30, 71, 235),rgb(119, 119, 161));
     position: sticky;
     top: 0px;
 }
@@ -126,23 +133,31 @@ nav>ul li:hover .sous {
 
 .tableau {
     display: flex;
-    width: 90%;
+    width: 100%;
 }
-
+.Connaissance{
+    .aquis {
+        width: 40%;
+        margin-left: 5%;
+        text-align: center;
+    }
+}
 .aquis {
-    width: 50%;
+    width: 40%;
+    margin-left: 20%;
     text-align: center;
 }
 
 .formation {
+    margin-left: 5%;
     text-align: center;
-    width: 50%;
+    width: 40%;
 }
 
 .autre {
-    margin-left: 10%;
+    margin-left: 20%;
     text-align: center;
-    width: 50%;
+    width: 40%;
 }
 .travail{
     margin-top: 5%;
@@ -151,6 +166,8 @@ nav>ul li:hover .sous {
 
 h2 {
     color: rgb(54, 32, 145);
+    background-color: lightgray;
+    border-radius: 20px;
 }
 
 .langue{
