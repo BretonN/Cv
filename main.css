@@ -1,7 +1,7 @@
 .presentation{
     min-width: 80%;
     min-height:10%;
-    background-color:rgb(219, 219, 219);
+    background:linear-gradient(rgb(113, 133, 215),rgb(75, 75, 111));
     border-radius: 15px;
     border:0 ;
     padding-left: 20px;
@@ -92,7 +92,7 @@ nav>ul li:hover .sous {
     display: block;
     width: 83%;
     text-align: center;
-    background-color: rgb(156, 156, 156);
+    background:linear-gradient(rgb(113, 133, 215),rgb(75, 75, 111));
 }
 
 .sous li {
@@ -156,4 +156,8 @@ nav>ul li:hover .sous {
 
 h2 {
     color: rgb(54, 32, 145);
+}
+
+.langue{
+    text-align: center;
 }
