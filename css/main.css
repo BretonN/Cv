@@ -196,3 +196,12 @@ footer{
     background-image : url(https://media.istockphoto.com/id/1216520813/fr/photo/cyberespace-num%C3%A9rique-avec-particules-et-connexions-r%C3%A9seau-de-donn%C3%A9es-num%C3%A9riques-future.jpg?b=1&s=170667a&w=0&k=20&c=AvcB7ifJG4XDgQjJRPw8WoS4VKGNfcdUVdiZGtmK2II=);
     color:white;
 }
+.interet{
+    display: flex;
+}
+.loisir{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    clip-path:ellipse(33% 50%);
+}
